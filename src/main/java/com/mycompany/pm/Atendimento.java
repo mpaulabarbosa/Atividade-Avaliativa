@@ -10,16 +10,14 @@ package com.mycompany.pm;
  */
 public class Atendimento {
 
-    public Atendimento(int codigo, String nomeAnimal, String especie, String nomeTutor, String data, String horario, String status, String observacao, Procedimento procedimento) {
+    public Atendimento(int codigo, String nomeAnimal, String especie, String nomeTutor, String data, String horario, String observacao) {
         this.codigo = codigo;
         this.nomeAnimal = nomeAnimal;
         this.especie = especie;
         this.nomeTutor = nomeTutor;
         this.data = data;
         this.horario = horario;
-        this.status = status;
         this.observacao = observacao;
-        this.procedimento = procedimento;
     }
 
     public int getCodigo() {
